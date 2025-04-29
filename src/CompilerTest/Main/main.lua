@@ -1,5 +1,3 @@
-require('Helpers/test')
-function onTick()
-    server.announce("test","$$test")
-    Helpers.test:test()
-end
+require('Definition')
+require('Helpers/Messages')
+Addons = "$$addons"
