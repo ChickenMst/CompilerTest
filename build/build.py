@@ -6,11 +6,11 @@ dir = os.path.dirname(dir)
 print("Workspace: "+dir)
 out = os.path.join(dir, "out\\script.lua")
 print("Output: "+out)
-src = os.path.join(dir, "src\\CompilerTest\\Main\\main.lua")
+src = os.path.join(dir, "src\\main.lua")
 print("Source: "+src)
 config = os.path.join(dir, "config\\config.lua")
 print("Config: "+config)
-addon = os.path.join(dir, "src\\CompilerTest\\Main\\Addons")
+addon = os.path.join(dir, "src\\Addons")
 
 # Command to execute
 command = (
@@ -22,7 +22,7 @@ command = (
 lua_scripts = []
 
 # Function to remove a specific substring from the script paths
-def clean_script_path(script_path, to_remove="src/CompilerTest/Main/"):
+def clean_script_path(script_path, to_remove="src/"):
     cleaned_path = script_path.replace(to_remove, "").replace(".lua", "")
     print(f"Cleaned script path: {cleaned_path}")
     return cleaned_path

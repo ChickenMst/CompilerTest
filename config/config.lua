@@ -1,3 +1,3 @@
 customchat = true
 test = "e"
-addons = {}
+addons = {"Addons/e","Addons/test"}
