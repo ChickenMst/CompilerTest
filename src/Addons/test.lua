@@ -1,1 +1,1 @@
-iohugbajn="3"
+Helpers.Addons:Add("test", function() e = 1 end)

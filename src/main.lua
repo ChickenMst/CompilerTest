@@ -1,3 +1,2 @@
-require('Definition')
-require('Helpers/Messages')
- require("$$addons")
+require('Init')
+require('$$addons')
