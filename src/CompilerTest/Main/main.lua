@@ -1,3 +1,3 @@
 function onTick()
-    server.announce("test","e")
+    server.announce("test","$$test")
 end
