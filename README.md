@@ -1,2 +1,2 @@
-# lifeboat-test
-personal test repo for the lifeboat features
+# CompilerTest
+personal test repo for tumfl
